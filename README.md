@@ -3,7 +3,7 @@ An basic interprter for Simple Machine Language written in C.
 
 Simple Machine Language <br />
   push **num** - push **num** to stack <br />
-  pop - pop top number from stack
+  pop - pop top number from stack <br />
   add - pop top 2 numbers off the stack, add them, push the sum on the stack <br />
   ifeq **line number** - pop the top of stack if its eq 0 jump to **line number** <br />
   jump **line number** - jump to **line number** <br />
